@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Insertar</title>
+    <link rel="icon" type="image/png" href="img/ecopetrol_logo.png">
+    <link rel="stylesheet" type="text/css" href="css/estiloINS.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <header>
+
+
+        <div class="menu-contenedor">
+            <img class="img" src="img/ecopetrol_logo2.png" width="145px" height="65px">
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Opciones</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="../Pagina_Consultar/index.html">Ingresar consulta</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../Pagina_Insertar/index.html">Ingresar muestra</a>
+                                </li>
+                                <li><a class="dropdown-item" href="../Pagina_Inventario_general/index.html">Inventario general</a></li>
+                                <li><a class="dropdown-item" href="#">Escanear muestra</a></li>
+                                <li><a class="dropdown-item" href="../Pagina_Actualizar/index.html">Actualizar muestra</a></li>
+                                <li><a class="dropdown-item" href="../Pagina_Muestras_archivadas/index.html">Consultar muestras archivadas</a></li>
+                                <li><a class="dropdown-item" href="../Pagina_SGA/index.html">Visualizar SGA</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <center>
+        <div class="badge text-wrap"
+            style="width: 15rem; font-size: large; background-color: #28A745; box-shadow: 4px 4px 7px rgb(177, 250, 163);margin-top: 10px; color: white; padding: 7px; border-radius: 5mm;">
+            Ingreso de muestras
+        </div>
+    </center>
+
+    <section class="contenedor">
+
+        <div class="contenedor-form">
+            <form>
+
+                <div class="form-group">
+                    <label for="nombre">Código</label>
+                    <input type="number" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Fecha de ingreso</label>
+                    <input type="date" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Fecha de monitoreo</label>
+                    <input type="date" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="destino">Lugar de muestreo</label>
+                    <select multiple class="form-control" id="destino" required>
+                        <option>Refinería Barrancabermeja</option>
+                        <option>Refinería Cartagena</option>
+                    </select>
+                </div>
+               
+                <div class="form-group">
+                    <label for="observaciones">Descripción</label>
+                    <textarea class="form-control" id="observaciones" rows="2"></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="destino">Tipo de producto</label>
+                    <select multiple class="form-control" id="destino" required>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="destino">Tipo de hidrocarburo</label>
+                    <select multiple class="form-control" id="destino" required>
+                        <option></option>
+                        <option></option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="nombre">Responsable</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Area</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Estante</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Ubicación del estante</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Tipo de recipiente</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Tamaño de recipiente</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Cantidad de recipiente</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Cantidad total (Volumen)</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+               
+                <div class="form-group">
+                    <label for="nombre">Recibido por</label>
+                    <input type="text" class="form-control" id="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="observaciones">Observaciones</label>
+                    <textarea class="form-control" id="observaciones" rows="2"></textarea>
+                </div>
+
+                <center>
+
+                    <button class="btn btn-lg btn-success btn-block " type="submit" style="margin-top: 7px;">Insertar
+                        muestra</button>
+                    <button class="btn btn-lg btn-success btn-block " type="submit">Generar código QR</button>
+
+                </center>
+
+                <br>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <center>
+        <p class="mt-5 mb-3 text-muted">&copy; Todos los derechos reservados</p>
+    </center>
+
+</body>
+
+</html>

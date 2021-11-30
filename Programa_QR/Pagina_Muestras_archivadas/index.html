@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Archivos</title>
+  <link rel="icon" type="image/png" href="img/ecopetrol_logo.png">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+  <link href="css/estilos.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+
+
+    <div class="menu-contenedor">
+      <img class="img" src="img/ecopetrol_logo2.png" width="145px" height="65px">
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Opciones</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown"
+          aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                
+              </a>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="../Pagina_Consultar/index.html">Ingresar consulta</a>
+                </li>
+                <li><a class="dropdown-item" href="../Pagina_Insertar/index.html">Ingresar muestra</a>
+                </li>
+                <li><a class="dropdown-item" href="../Pagina_Inventario_general/index.html">Inventario general</a></li>
+                <li><a class="dropdown-item" href="#">Escanear muestra</a></li>
+                <li><a class="dropdown-item" href="../Pagina_Actualizar/index.html">Actualizar muestra</a></li>
+                <li><a class="dropdown-item" href="../Pagina_Muestras_archivadas/index.html">Consultar muestras archivadas</a></li>
+                <li><a class="dropdown-item" href="../Pagina_SGA/index.html">Visualizar SGA</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <center>
+    <div class="badge text-wrap"
+      style="width: 15rem; font-size: large; background-color: #28A745; box-shadow: 4px 4px 7px rgb(177, 250, 163);margin-top: 10px; color: white; padding: 7px; border-radius: 5mm;">
+      Muestras archivadas
+    </div>
+  </center>
+
+  <center>
+  <section class="contenedor" style="width: 10cm;">
+
+
+    <div class="contenedor-form" style="background-color: white; border-radius: 5mm;">
+
+            <h5 class="bg-light"
+                style="padding-bottom: 5px; border: 2px solid #28A745; border-radius: 5mm; box-shadow: 4px 4px 7px rgb(177, 250, 163);">
+                Ingrese código para eliminación</h5>
+        
+        <nav class="navbar navbar-light bg-light" style="max-width: 90%; ">
+            <div class="container-fluid">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger" type="submit">Eliminar</button>
+                </form>
+            </div>
+        </nav>
+  </div>
+  </section>
+</center>
+  <section style="margin-top: -9px;">
+    <table class="table table-bordered">
+      <thead class="thead">
+        <tr>
+          <th scope="col">ITEM</th>
+          <th scope="col">Reincorporación</th>
+          
+          <th scope="col">Código</th>
+          <th scope="col">Fecha de monitoreo</th>
+          <th scope="col">Fecha de ingreso a planta</th>
+          <th scope="col">Procedencia</th>
+          <th scope="col">Lugar de muestreo</th>
+
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>5</strong></td>
+          <td>
+            <center>
+
+              <button class="btn btn-sm btn-warning" type="submit"><strong>Reincorporar muestra</strong> </button>
+
+            </center>
+          </td>
+          
+          <td>BT_M_105</td>
+          <td>27/04/21</td>
+          <td>30/04/21</td>
+          <td>Refinería Barrancabermeja</td>
+          <td>UOP1</td>
+
+
+
+        </tr>
+
+      </tbody>
+    </table>
+
+
+    <table class="table table-bordered">
+      <thead class="thead">
+        <tr>
+          <th scope="col">Descripción muestra</th>
+          
+          <th scope="col">Tipo producto</th>
+          <th scope="col">Tipo hidrocarburo</th>
+          <th scope="col">Cantidad total(galones)</th>
+          <th scope="col">Unidad medida</th>
+          <th scope="col">Tipo recipiente</th>
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>ALC</td>
+         
+          <td>ALC</td>
+          <td>FONDOS</td>
+          <td>3 galones</td>
+          <td>1</td>
+          <td>Plastico</td>
+
+        </tr>
+
+      </tbody>
+    </table>
+
+    <table class="table table-bordered">
+      <thead class="thead">
+        <tr>
+          <th scope="col">Tamaño recipiente</th>
+          <th scope="col">Cantidad recipientes</th>
+          <th scope="col">Estado muestra</th>
+          <th scope="col">Estante No.</th>
+          <th scope="col">Ubicación estante</th>
+          <th scope="col">Cliente(responsable)</th>
+          <th scope="col">Area</th>
+
+
+
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>10 LT</td>
+          <td>1</td>
+          <td>Liquida</td>
+
+          <td>E-5</td>
+          <td>B-2</td>
+          <td>Laura Garzón</td>
+          <td>U-820</td>
+
+
+
+        </tr>
+
+      </tbody>
+    </table>
+    <center>
+      <table class="table table-bordered border-primary">
+        <thead class="thead">
+          <tr>
+            
+            <th scope="col">Recibe en planta</th>
+            
+            <th scope="col">Observaciones</th>
+            <th scope="col">Fecha de eliminación</th>
+            <th scope="col">Eliminar <strong style="color: #FDD903;">BT_M_105</strong></th>
+            
+
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td>Ferney Barreto</td>
+            
+            <td>27/abril/2022</td>
+            <td>29/abril/2021</td>
+            <td>
+              <center>
+  
+                <button class="btn btn-sm btn-danger" type="submit"><strong>Eliminar muestra</strong> </button>
+  
+              </center>
+            </td>
+          </tr>
+
+
+        </tbody>
+      </table>
+    </center>
+    <center>
+      <p class="mt-5 mb-3 text-muted">&copy; Todos los derechos reservados</p>
+    </center>
+
+  </section>
+
+</body>
+
+</html>
